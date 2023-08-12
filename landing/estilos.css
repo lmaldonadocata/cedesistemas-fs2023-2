@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carrusel-container {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.3s ease;
+    cursor: grab;
+}
+
+.carrusel img {
+    width: 100%;
+    height: auto;
+}
