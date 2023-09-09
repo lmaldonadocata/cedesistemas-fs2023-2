@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   background: url(https://landing.zytheme.com/siena/assets/images/background/bg-1.png);
-  background-position: 0;
+  background-position: 10;
   background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
 }
@@ -15,16 +15,18 @@ body {
 header {
 display: flex;
 flex-direction: row;
-margin: 0 60px;
-
+margin: 0px 300px;
+padding:  15px;
 }
 
 
 .logo {
 
-    padding:  10px;
+    padding:  15px;
     display: flex;
     align-items: center;
+    
+
 }
 nav {
 
@@ -104,7 +106,7 @@ form h4 {
 .btn-primary {
     width: 100%;
     background-color: #664ffa;
-    border-radius: 6px;
+    border-radius: 5px;
     color:#fff;
     text-transform: uppercase;
     padding: 10px 0px;
@@ -119,15 +121,60 @@ form h4 {
   
   #section-home {
     display: flex ;
-    margin: 100px 60px;
+    margin: 100px 325px;
   }
   
   #section-home div {
     flex: 1;
+
   }
 
   #section-home div:first-child {
-    margin-right: 10px;
+
+    width: 540;
+    height: 542;
+    padding: 0px  15px;
   }
 
+  #section-home form {
+    margin-left: 110px;  
+    padding: 25px 60px;
+  }
   
+  #section-feature1 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    color: #6262a0;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #fila {
+    
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 20px;
+    color: #6262a0;
+    font-size: 22px;
+    justify-content:center; 
+}
+
+.item-feature{
+    align-items: center;
+    padding: 20px;
+    text-align: center; 
+}
+
+.item-feature img {
+    
+    width:70;
+    height: 70px;
+}
+

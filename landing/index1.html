@@ -1,19 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrusel de Imágenes</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing page</title>
 </head>
 <body>
-    <div class="carrusel-container">
-        <div class="carrusel" id="carrusel">
-            <img src="t1.PNG" alt="Imagen 1">
-            <img src="t2.PNG" alt="Imagen 2">
-            <img src="t3.PNG" alt="Imagen 3">
+   <header>
+        <div class="logo">
+            <img src="https://landing.zytheme.com/siena/assets/images/logo/logo-dark.png" />
         </div>
-    </div>
-    <script src="carrusel.js"></script>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+        </nav>
+   </header>
+
+   <section id="section-home">
+        <div>
+            <h1>Engage more users & supercharge your landing conversion rates</h1>
+            <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered landing pages.</p>
+        </div>
+        <div>
+            <form>
+                <h4>Start Your 30-Day Free Trial</h4>
+                <div class="form-control">
+                    <label for="name">Your name*</label>
+                    <input name="name" type="text" />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email address*</label>
+                    <input name="email" type="email" />
+                </div>
+                <div class="form-control">
+                    <label for="password">Password*</label>
+                    <input name="password" type="password" />
+                </div>
+                <button class="btn-primary" type="submit">Get free trial now</button>
+                <p><small>Hurry up, limited time offer</small></p>
+            </form>
+        </div>
+   </section>
+
 </body>
 </html>
